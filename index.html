@@ -4,43 +4,48 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Temperature Converter</title>
-  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
 </head>
 <body>
 
   <main class="convert">
-    <h1>Temperature Converter</h1>
-
-    <form id="converter-form">
+    <div class="top">
+    <i id="image" class="fa-solid fa-temperature-half"></i>
+    <h1 id="heading">Temperature Converter</h1>
+    </div>
+<br>
+<br>
+    <form id="converter-form ">
       <div class="form-group">
-        <label for="input">Degrees</label>
+        <label for="input"><b>Enter value in Degree : </b></label>
         <input type="number" id="input" placeholder="Enter value in Degree" required />
       </div>
-
-      <div class="form-group">
-        <label for="output">From</label>
+<br>
+      <div class="form-group ">
+        <label for="output"><b>Select the input unit : </b></label>
         <select id="output">
           <option value="celsius">Celsius(C)</option>
           <option value="fahrenheit">Fahrenheit(F)</option>
           <option value="kelvin">Kelvin(K)</option>
         </select>
       </div>
-
-      <div class="form-group">
-        <label for="converter">To</label>
+<br>
+      <div class="form-group ">
+        <label for="converter"><b>Select the output unit : </b></label>
         <select id="converter">
           <option value="celsius">Celsius</option>
           <option value="fahrenheit">Fahrenheit</option>
           <option value="kelvin">Kelvin</option>
         </select>
       </div>
-
-      <div class="form-group">
-        <label for="result">Result</label>
+<br>
+      <div class="form-group ">
+        <label for="result"><b>Result : </b></label>
         <input type="text" id="result" disabled />
       </div>
-
-      <button type="submit">Convert</button>
+<br>
+      <button type="submit"><b>Convert</b></button>
     </form>
   </main>
 
