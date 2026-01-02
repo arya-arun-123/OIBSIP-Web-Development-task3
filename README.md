@@ -11,9 +11,5 @@ End date: 15th January 2026<br>
 
 # TASKS- Level 1
 
-#task-1<br>
-  A landing page<br>
-#task-2<br>
-  A portfolio<br>
-#task-3<br>
-  A temperature converter<br>
+#Task 3 : Temperature Converter<br>
+This project provided me with hands-on exposure to HTML, CSS, and JavaScript, allowing me to understand how these technologies work together to build interactive web applications. By designing the user interface and implementing functionality using JavaScript, I was able to strengthen my front-end development skills and improve my problem-solving ability. Working on this project also helped me gain confidence in writing clean code and applying core web development concepts in a practical way.

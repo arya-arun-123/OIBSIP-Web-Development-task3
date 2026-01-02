@@ -32,6 +32,6 @@ else if(unitOutput === "K"){
     convTemp = tem + 273.15;
 }
 //Display Result
-resultOutput.innerHTML  = `Converted Temperature :${convTemp.toFixed(2)} ${unitOutput}`;
+resultOutput.innerHTML  = `Converted Temperature :${convTemp.toFixed(2)} °${unitOutput}`;
 }
 
