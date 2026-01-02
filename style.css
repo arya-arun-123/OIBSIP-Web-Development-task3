@@ -48,3 +48,7 @@ button{
     background-color: blueviolet;
     color: #fff;
 }
+#resultOutput{
+    color:rgb(90, 3, 64);
+    font-weight: 800;
+}
